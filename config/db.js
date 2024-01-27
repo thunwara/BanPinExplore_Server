@@ -1,4 +1,4 @@
-require('dotenv').config();
+require("dotenv").config();
 
 const mongoose = require("mongoose");
 
@@ -8,6 +8,6 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log("Database Connected");
+    console.log("DB Connected");
   })
   .catch((err) => console.log(err));
